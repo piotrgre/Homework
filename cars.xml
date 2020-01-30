@@ -1,0 +1,26 @@
+<list>
+  <ppa.model.Car>
+    <make>Ford</make>
+    <model>Focus</model>
+    <yearOfProduction>2006</yearOfProduction>
+    <diesel>true</diesel>
+    <enginePower>82.0</enginePower>
+    <color>#FFCC33</color>
+  </ppa.model.Car>
+  <ppa.model.Car>
+    <make>Porsche</make>
+    <model>Carrera</model>
+    <yearOfProduction>1976</yearOfProduction>
+    <diesel>true</diesel>
+    <enginePower>233.0</enginePower>
+    <color>0xff9999ff</color>
+  </ppa.model.Car>
+  <ppa.model.Car>
+    <make>Honda</make>
+    <model>Civic</model>
+    <yearOfProduction>2010</yearOfProduction>
+    <diesel>true</diesel>
+    <enginePower>112.0</enginePower>
+    <color>0x99b3ffff</color>
+  </ppa.model.Car>
+</list>

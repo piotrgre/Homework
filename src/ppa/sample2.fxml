@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ppa.CarTableController">
+    <center>
+        <TableView fx:id="carTableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn prefWidth="126.0" text="Make" />
+                <TableColumn prefWidth="114.0" text="Model" />
+                <TableColumn prefWidth="69.0" text="Year" />
+                <TableColumn prefWidth="114.0" text="Is diesel" />
+                <TableColumn prefWidth="84.0" text="Power (hp)" />
+                <TableColumn prefWidth="90.0" text="Color" />
+            </columns>
+        </TableView>
+    </center>
+   <bottom>
+      <Button fx:id="Zapisz" mnemonicParsing="false" onAction="#save" text="Zapisz" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
